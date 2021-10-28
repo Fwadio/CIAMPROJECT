@@ -10,6 +10,15 @@
     --boxShadow1: #33ffff;
     --boxShadow2: #66ffff;
 }
+.StuffText{
+    margin-top: 0.5%;
+    text-align: top left;
+    float: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;      
+}
 body {
     background: #f2f2f2;
 }
@@ -21,13 +30,19 @@ nav:after {
     clear: both;
     display: table;
 }
+nav .ImageLogo{
+    padding-left: 0%;
+    position: absolute left;
+}
 nav .logo {
+    margin-top: 0%;
+    text-align: top left;
     float: left;
     color: white;
-    font-size: 27px;
+    font-size: 40px;
     font-weight: 600;
-    line-height: 70px;
-    padding-left: 60px;
+    line-height: 60px;
+    padding-left: 64px;
 }
 nav ul {
     float: right;
