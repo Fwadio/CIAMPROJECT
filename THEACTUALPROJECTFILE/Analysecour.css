@@ -54,14 +54,6 @@ nav ul {
     position: relative;
     
 }
-/*div.logo a img {
-    position: absolute;
-    margin-top: -140px;
-    margin-left:-90px;
-    width: 300px;
-    height: 450px;
-    display: block;
-}*/
 nav ul li {
     float: left;
     background: var(--nav-color);
