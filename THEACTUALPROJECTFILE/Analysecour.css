@@ -13,30 +13,21 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     --boxShadow1: #558492;
     --boxShadow2: #6860e0;
 }
-.StuffText{
-    margin-top: 0.5%;
-    text-align: top left;
-    float: left;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 60px;      
-}
-.nav {
+nav {
     background: var(--nav-color);
     cursor: pointer;
 }
-.nav:after {
+nav:after {
     content: '';
     clear: both;
     display: table;
     width: 100%;
 }
-.nav .ImageLogo{
+nav .ImageLogo{
     padding-left: 0%;
     position: absolute left;
 }
-.nav .logo {
+nav .logo {
     margin-top: 0%;
     text-align: top left;
     float: left;
@@ -46,36 +37,36 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     line-height: 40px;
     padding-left: 64px;
 }
-.nav ul {
+nav ul {
     float: right;
     list-style: none;
     margin-right: 40px;
     position: relative;
     
 }
-.nav ul li {
+nav ul li {
     float: left;
     background: var(--nav-color);
     margin: 0 5px;
 }
-.nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     line-height: 70px;
     font-size: 18px;
     padding: 8px 15px;
 }
-.nav ul li a:hover {
+nav ul li a:hover {
     color: var(--shadow);
     box-shadow: 0 0 5px var(--boxShadow1),
                 0 0 5px var(--boxShadow2);
     border-radius: 20px;
 }
-.nav ul  ul li a:hover {
+nav ul  ul li a:hover {
     color: var(--shadow);
     box-shadow: none;
 }
-.nav ul ul{
+nav ul ul{
     position: absolute;
     top: 90px;
     border-top: 3px solid var(--shadow);
@@ -83,16 +74,16 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     visibility: hidden;
     transition: top .3s;
 }
-.nav ul ul ul {
+nav ul ul ul {
     border-top: none;
 
 }
-.nav ul li:hover > ul {
+nav ul li:hover > ul {
     top: 70px;
     opacity: 1;
     visibility: visible;
 }
-.nav ul ul li {
+nav ul ul li {
     position: relative;
     margin: 0;
     width: 150px;
@@ -100,10 +91,10 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     display: list-item;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
-.nav ul ul li a {
+nav ul ul li a {
     line-height: 50px;
 }
-.nav ul ul ul li {
+nav ul ul ul li {
     position: relative;
     top: -70px;
     left: 150px;
@@ -117,7 +108,7 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     display: none;
 }
 @media all and (max-width: 968px) {
-    .nav ul {
+    nav ul {
         margin-left: 0;
         float: left;
     }
@@ -126,14 +117,14 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
         width: 100%;
         position: relative;
     }
-    .nav ul li, .nav ul ul li {
+    nav ul li, nav ul ul li {
         display: block;
         width: 100%;
     }
-    .nav ul li a:hover {
+    nav ul li a:hover {
         box-shadow: none;
     }
-    .nav ul ul {
+    nav ul ul {
         top: 70px;
         position: static;
         border: none;
@@ -142,16 +133,16 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
         opacity: 1;
         visibility: visible;
     }
-    .nav ul ul ul li {
+    nav ul ul ul li {
         position: static;
     }
-    .nav ul ul li {
+    nav ul ul li {
         border-bottom: 0px;
     }
-    .nav ul ul a {
+    nav ul ul a {
         padding-left: 40px;
     }
-    .nav ul ul ul a {
+    nav ul ul ul a {
        padding-left: 80px; 
     }
     .show {
@@ -174,7 +165,7 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
         font-size: 25px;
         cursor: pointer;
     }
-    .nav ul a:hover {
+    nav ul a:hover {
         box-shadow: none;
     }
     .show + a, ul {
