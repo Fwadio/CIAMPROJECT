@@ -288,3 +288,25 @@ li {
     align-content: center;
     text-align: center;
 }
+@media all and (max-width: 968px) {
+    .CoursAnalyseEntête {
+        text-align: center;
+        background: linear-gradient(rgba(15, 25, 87, 0.4), rgba(44, 43, 49, 0.7));
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 50%;
+        height: 70px;
+        padding: 10px;
+        padding-top: 20px;
+        margin-top: 10px;
+        color: #0c074d;
+        border-bottom: 4px solid #4596b6;
+        font-style: italic;
+        font-family: 'poppins';
+        font-size: 22px;
+    }
+    .picture img {
+        display: none;
+     }
+
+}
