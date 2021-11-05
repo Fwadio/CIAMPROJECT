@@ -5,21 +5,48 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <style id="applicationStylesheet" type="text/css"></style>
-
     <link rel="stylesheet" href="./styles/home_page.css">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  
-        
-         
 </head> 
     
-    <body> 
-
-
+   <body> 
+	    <!--navbar section-->
+     <nav class="nav">
+        <div class="logo">
+            <a href="#"><img src="Testingforthelogo.png" class="ImageLogo" alt="Logo CIAM" height="64"; width="64";></a>
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Learn +</label>
+                <a href="#">Learn</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="learnpage.html">Mathematique</a></li>
+                    <li><a href="learnpage.html">Informatique</a></li>
+                    <li>
+                        <label for="btn-2" class="show">More +</label>
+                        <a href="#">More
+                            <span class="fa fa-plus" aria-hidden="true"></span>
+                        </a>
+                        <input type="checkbox" id="btn-2">
+                        <ul>
+                            <li><a href="#">Practice</a></li>
+                            <li><a href="#">Ressources</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+	    <!--homepage-->
        <div class="home_page">
 		   <img src="./images/WhatsApp Image 2021-10-30 at 20.59.26.jpeg" class="background">
-            
         	    <figcaption class="background__info">
                     <span>ENJOYING AND <br/>STUDYING IS <br/>THE BEST WAY TO STUDY</span>
 				</figcaption>
@@ -64,16 +91,4 @@
         </div>
     
     </body> 
-	<div class="nav">
-		<script>
-			$(function(){
-			  $(".nav").load("index.html");
-			});
-			
-		</script>
-	</div>
-
-    
-    
-
 </html>
