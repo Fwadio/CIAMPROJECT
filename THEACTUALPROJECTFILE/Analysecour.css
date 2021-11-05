@@ -241,9 +241,10 @@ li {
     height: auto;
 }
 .picture img {
-   width: 50%;
-   margin-top: -45%;
+   width: 500px;
+   margin-top: -37%;
    margin-left: 50%;
+   display: inline-block;
 }
 .img1 {
     width: 50px;
