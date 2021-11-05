@@ -23,7 +23,7 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     line-height: 60px;      
 }
 body {
-    background: #f2f2f2;
+    background: white;
 }
 nav {
     background: var(--nav-color);
@@ -239,7 +239,7 @@ ol li a {
     height: auto;
 }
 .picture img {
-    width: 50%;
+    width: 500px;
     margin-top: -45%;
     margin-left: 50%;
  }
