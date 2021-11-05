@@ -5,10 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --shadow: rgb(28, 24, 255);
+    --shadow: rgb(28, 40, 218);
     --nav-color: #1b1b1b;
-    --boxShadow1: #4596b6;
-    --boxShadow2: #0c074d;
+    --boxShadow1: #558492;
+    --boxShadow2: #6860e0;
 }
 .StuffText{
     margin-top: 0.5%;
