@@ -5,10 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --shadow: rgb(28, 40, 218);
+    --shadow: rgb(28, 24, 255);
     --nav-color: #1b1b1b;
-    --boxShadow1: #558492;
-    --boxShadow2: #6860e0;
+    --boxShadow1: #4596b6;
+    --boxShadow2: #0c074d;
 }
 .StuffText{
     margin-top: 0.5%;
@@ -40,7 +40,7 @@
     color: white;
     font-size: 40px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 60px;
     padding-left: 64px;
 }
 .nav ul {
@@ -212,11 +212,11 @@ header {
     
 }
 #flexible {
-    margin-left: 50%;
+    margin-left: 600px;
     margin-top: -44.5%;
 }
 #flex {
-    margin-left: 28%;
+    margin-left: 400px;
     padding: 10px;
     margin-top: -1.4%;
 }
