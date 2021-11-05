@@ -188,21 +188,83 @@ nav ul ul ul li {
 }
 /*stuff after this bunch of text concerns the webpage*/
 
+.CoursAnalyseEntête, .T{
+    text-align: center;
+    background: linear-gradient(rgba(15, 25, 87, 0.4), rgba(44, 43, 49, 0.7));
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50%;
+    height: 60px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #0c074d;
+    border-bottom: 4px solid #4596b6;
+    font-style: italic;
+    font-family: 'poppins';
+    margin-bottom: 20px;
+}
+.Introduction {
+    margin: 10px;
+    color: rgb(52, 83, 168);
+    text-decoration-line: underline;
+}
 .ListDeCours {
     display: table;
     padding: 7px;
 }
-.ListDeCours, .ListDeCourscolours {
+.ListDeCours {
     border: 1px solid #a2a9b1;
-    background-color: #f8f9fa;
-    padding: 5px;
+    background-color: #dce0e4;
+    padding: 20px;
     font-size: 95%;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #889194;
+    width: 450px;
+    height: 400px;
 }
+.ListDeCours ol {
+    list-style: none;
+    margin: 10px;
+}
+ol li a {
+    text-decoration: none;
+}
+.ListDeCours h3 a {
+    color: rgb(211, 4, 4);
+    text-decoration: none;
+}
+.IamNotWorkingOnThatOneByOne img {
+    width: 95vw;
+    height: auto;
+}
+.picture img {
+    width: 50%;
+    margin-top: -45%;
+    margin-left: 50%;
+ }
 .T{
     font-weight: 800;
 }
-.ListeIndexation{
+.ListeIndexation {
     padding-left: 15px;
+    margin-top: 10px;
+}
+.ListeIndexation a {
+    text-decoration: none;
+}
+.ListeIndexation a:hover {
+    text-decoration: underline solid 3px #4596b6;
+    color: #4596b6;
+    transition: 0.5s ease-in-out;
+}
+.LIMITS {
+    color: rgb(29, 218, 57);
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 2px 2px rgb(49, 131, 67);
+
 }
 .ST{
     font-weight: 600;
