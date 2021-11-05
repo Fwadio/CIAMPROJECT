@@ -8,10 +8,10 @@ if you want to edit stuff about it edit it diretly in the navbar file then copy 
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --shadow: cyan;
+    --shadow: rgb(28, 40, 218);
     --nav-color: #1b1b1b;
-    --boxShadow1: #33ffff;
-    --boxShadow2: #66ffff;
+    --boxShadow1: #558492;
+    --boxShadow2: #6860e0;
 }
 .StuffText{
     margin-top: 0.5%;
@@ -44,7 +44,7 @@ nav .logo {
     color: white;
     font-size: 40px;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 40px;
     padding-left: 64px;
 }
 nav ul {
@@ -79,7 +79,7 @@ nav ul  ul li a:hover {
 nav ul ul{
     position: absolute;
     top: 90px;
-    border-top: 3px solid cyan;
+    border-top: 3px solid var(--shadow);
     opacity: 0;
     visibility: hidden;
     transition: top .3s;
