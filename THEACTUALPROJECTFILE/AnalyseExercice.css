@@ -275,3 +275,16 @@ ol li a {
     align-content: center;
     text-align: center;
 }
+@media all and (max-width: 968px) {
+    .CoursAnalyseEntête, .T{
+        height: 75px;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .picture img {
+     display: none;
+    }
+    .ListeIndexation {
+        display: block;
+    }
+}
